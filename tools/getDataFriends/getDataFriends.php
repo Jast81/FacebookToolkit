@@ -13,7 +13,7 @@
 
 error_reporting(0);
 
-$input = $climate->br()->input('Username or ID?');
+$input = $climate->br()->input('https://www.facebook.com/jayson.plaza.1675/');
 $id = $input->prompt();
 
 $curl = curl_init();
